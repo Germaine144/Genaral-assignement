@@ -10,12 +10,8 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <ul>
-                <li>My Food</li>
-                <li> <a href="#">Email</a></li>
-            </ul>
-        </nav>
+        <div class="nav"> <a href="">My Food</a></div>
+        <div class="email">Email</div>
     </header>
     <main>
         <section class="post">
@@ -63,9 +59,14 @@
                 <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
                 </p>
             </div>
+            <div class="pagination">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+              </div>
         </section>
         <section class="about">
-
             <img src="chef.jpg">
             <b>I am Who I Am!</b>
             <i>With Passion For Real, Good Food</i>
@@ -78,31 +79,40 @@
         </section>
     </main>
     <footer>
-        <div class="footer">
-            <div id="footer">
-                <h3>FOOTER</h3>
-                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
-                    porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">W3.css</a></p>
-            </div>
-            <div>
-                <h3>BLOG POSTS</h3>
-                <ul>
-                    <li class="1">
-                        <img src="workshop.jpg" style="width: 50px;">
-                        <span class="lorem" >Lorem</span>
-                        <br>
-                        <span>Sed mattis nunc</span>
-                    </li>
-                    <li class="1">
-                        <img src="gondol.jpg" style="width: 50px;">
-                        <span class="lorem" >Lorem</span>
-                        <br>
-                        <span>Sed mattis nunc</span>
-                    </li>
-                </ul>
-            </div>
+        <div class="footer-section">
 
+            <h3 style="text-align: center;">FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+                porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">W3.css</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>BLOG POSTS</h3>
+            <ul>
+                <div class="poster">
+                    <img src="workshop.jpg" style="width: 50px;">
+                    <span class="lorem">Lorem</span>
+                    <br>
+                    <span class="lorem">Sed mattis nunc</span>
+                </div>
+                <br>
+                <div class="poster">
+                    <img src="gondol.jpg" style="width: 50px;">
+                    <span class="lorem">Lorem</span>
+                    <br>
+                    <span class="lorem">Sed mattis nunc</span>
+                </div>
+            </ul>
+
+        </div>
+        <div class="footer-section">
+            <h3 style="text-align: center;">POPULAR TAGS</h3>
+            <div class="tags">
+                <span style="background-color: black; color: white;">Travel</span> <span>New york</span> <span>Dinner</span> <span>Salmon</span>
+                <span>France</span> <span>Drinks</span> <span>Flavors</span> <span>Cuisine</span>
+                <span>Chicken</span> <span>Dressing</span> <span>Friends</span> <span>Fish</span>
+
+            </div>
         </div>
     </footer>
 </body>
